@@ -1,0 +1,26 @@
+{
+  "name": "node-spotify-cli",
+  "version": "1.0.2",
+  "description": "Check what song, artist and album are playing now on your machine via command line interface",
+  "main": "./bin/index.js",
+  "repository": "vitorfreitas/node-spotify-cli",
+  "scripts": {
+    "build": "npm publish"
+  },
+  "bin": {
+    "spotify-cli": "./bin/index.js"
+  },
+  "keywords": [
+    "spotify",
+    "cli"
+  ],
+  "author": {
+    "name": "Vitor Freitas",
+    "email": "vitorldfreitas@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "node-spotify-bus": "^1.0.1"
+  }
+}

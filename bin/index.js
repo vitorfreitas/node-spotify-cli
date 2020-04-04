@@ -10,6 +10,7 @@ program
   .action(async () => {
     const song = await nodeSpotify.getSong()
     console.log(song)
+    process.exit(0)
   })
 
 program
@@ -18,6 +19,7 @@ program
   .action(async () => {
     const song = await nodeSpotify.getArtist()
     console.log(song)
+    process.exit(0)
   })
 
 program
@@ -26,6 +28,7 @@ program
   .action(async () => {
     const song = await nodeSpotify.getAlbum()
     console.log(song)
+    process.exit(0)
   })
 
 program.parse(process.argv)

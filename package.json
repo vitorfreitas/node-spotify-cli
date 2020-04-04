@@ -1,6 +1,6 @@
 {
   "name": "node-spotify-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check what song, artist and album are playing now on your machine via command line interface",
   "main": "./bin/index.js",
   "repository": "vitorfreitas/node-spotify-cli",
